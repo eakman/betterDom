@@ -10,26 +10,25 @@ To utilize Fakequery's DOM manipulation abilities, you have to convert your DOM 
 
 ## Dom manipulation methods
 
-constructor(elements)
+`html(string)
+Sets the innerHTML of all elements in the collection to a given string.`
 
-html(string)
+`empty() Sets innerHTML of all elements in collection to an empty string.`
 
-empty()
+`append(content) Sets content to the last child of each element in the collection. Will accept a string, HTMLElement, or DOMNodeCollection.`
 
-append(content)
+`attr(attributeName, secondArg) When given just an attributeName, returns the first element in the collection that has that attribute. When given a secondArg, if it's a string, it finds the first element to secondArg. If given a function as a secondArg it says the value of the new attribute to the result of that function.`
 
-attr(attributeName, secondArg)
+`addClass(cName) Add a class name to each elements class attribute.`
 
-addClass(cName)
+`removeClass(cName) Removes a class name to each elements class attribute.`
 
-removeClass(cName)
+`children() Returns a DOMNodeCollection of each elements children.`
 
-children()
-
-parent()
+`parent() Returns a DOMNodeCollection of each elements parents.`
 
 ## Event listeners
 
-on(lEvent, callback)
+`on(lEvent, callback) Accepts a String lEvent and a callback. Will execute callback after event.`
 
-off(lEvent)
+`off(lEvent) Removes event listener for a given lEvent.`
