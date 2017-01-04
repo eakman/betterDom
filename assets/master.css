@@ -1,0 +1,82 @@
+h1, li, label{
+  font-family: sans-serif;
+}
+
+li {
+  font-size: 16px;
+}
+
+header {
+  border-bottom: 1px solid black;
+  margin-bottom: 39px;
+
+}
+
+.list-div {
+  display: inline-block;
+  height: 300px;
+  padding: 10px;
+  border: 1px solid black;
+  box-sizing: content-box;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+.todo-list {
+  display: block;
+  float: left;
+  margin-top: 10px;
+  overflow: auto;
+  border-top: 1px dotted black;
+  padding-right: 20px;
+  max-height: 185px;
+  min-width: 130px;
+
+}
+
+.todo-list li {
+  margin-top: 10px;
+
+}
+
+.item-input {
+  /*display: block;
+  float: left;
+  position: relative;
+  margin-top: -14px;*/
+}
+
+.item-button {
+  display: block;
+  float: left;
+}
+
+.description {
+  font-family: sans-serif;
+  margin-top: -22px;
+  margin-bottom: 40px;
+  color: #aaa;
+  font-size: 15px;
+  text-align: center;
+
+}
+
+.list-inputs {
+  display: flex;
+  flex-direction: row;
+}
+
+.list-title {
+  min-height: 37px;
+}
+
+.repo-link {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px dotted black;
+}
+
+.repo-link:hover {
+  border: none;
+  color: rgb(239, 113, 140);
+}

@@ -2,17 +2,26 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>jay q</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/master.css">
+    <title>betterDom</title>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
     <script type="text/javascript" src="./lib/fakequery.js">
 
     </script>
   </head>
+  <header>
+    <h1>betterDom Lists</h1>
+
+  </header>
+  <div class='description'>betterDom Lists is a to-do list management application built with betterDom, a custom DOM manipulation library.
+    <br>With betterDom Lists You can add and manage multiple to-do lists.
+    <br>Check out my <a href='https://github.com/eakman/betterDom' class='repo-link'>repo</a> for more info</div>
   <body>
 
-  <h1>To do list</h1>
-    <input type="text"></input>
-    <button class='butt'>add to do</button>
+    <label>create new list</label><br>
+    <input type="text" class="list-name" placeholder="list name">
+    <button class='add'>add list</button>
+
   <ul class='to-dos'></ul>
   </body>
 </html>
