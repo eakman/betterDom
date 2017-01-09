@@ -1,8 +1,8 @@
 # betterDom
 
-betterDom is a JavaScript DOM manipulation library inspired by JQuery.
+betterDom is a JavaScript DOM manipulation library inspired by jQuery.
 
-Like jQuery, with this software one can manipulate the DOM in a variety of ways, set event listeners, as well as execute AJAX style HTTP requests.
+Like jQuery, bettrDom allows you to manipulate the DOM in a variety of ways including setting event listeners, as well as executing AJAX style HTTP requests.
 
 Here's a to do list management application I built to demo some of it's feature:<br> [betterDom Lists](http://eakman.github.io/betterDom)
 
