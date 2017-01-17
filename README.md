@@ -1,17 +1,22 @@
 # betterDom
-
+Dom
 betterDom is a JavaScript DOM manipulation library inspired by jQuery.
 
 Like jQuery, betterDom allows you to manipulate the DOM in a variety of ways including by setting event listeners as well as executing AJAX style HTTP requests.
 
 Here's a to do list management application I built to demo some of it's features:<br> [betterDom Lists](http://eakman.github.io/betterDom)
 
-To use betterDom, copy the following to files into your project file within the same directory.
+To use betterDom, copy the [bundle.js](./lib/bundle.js) file into your project folder.
 
-[better_dom.js](./lib/better_dom.js)<br>
-[dom_node_collection.js](./lib/dom_node_collection.js)
+Place a script tag within the head tag of your html file linking to the bundle.js.
 
-Then in your main JavaScript file, require better_dom.js and wrap your projects code with $bD().
+```
+<script type="text/javascript" src="./path/to/bundle.js"></script>
+...
+<script type="text/javascript" src="./path/to/your_main_javascript_file.js"></script>
+```
+
+Then in your main JavaScript file, wrap your projects code within the the callback of the $bD() wrapper like so:
 
 ```
 #your_main_javascript_file.js
@@ -32,7 +37,7 @@ $bD(() => {
 
 To utilize betterDom's DOM manipulation abilities, you have to convert your DOM elements into a DOMNodeCollection with the $bD() wrapper.
 
-## Dom manipulation methods
+## DOM manipulation methods
 
 `html(string)`
 Sets the innerHTML of all elements in the collection to a given string.
