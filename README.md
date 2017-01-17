@@ -11,7 +11,7 @@ To use betterDom, copy the following to files into your project file within the 
 [better_dom.js](./lib/better_dom.js)<br>
 [dom_node_collection.js](./lib/dom_node_collection.js)
 
-Then in your main javascript file, require better_dom.js and wrap your projects code with $bD().
+Then in your main JavaScript file, require better_dom.js and wrap your projects code with $bD().
 
 ```
 #your_main_javascript_file.js
